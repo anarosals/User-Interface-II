@@ -103,30 +103,47 @@ h2{
 
 .projects {
     margin: 0;
-    padding:4%
-    /* display: flex; */
+    padding:4%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.projects-items img {
-    width:30%;
-    height:100%;
+.projects-items-container img {
+    width:95%;
+    /* height:100%; */
+}
+.size {
+    width: 30%;
 }
 
-.projects-items{
+.projects-items-container{
     margin: 4%;
     /* width: 50%; */
     /* max-width: 100%; */
     display: flex;
+    /* flex-direction: row; */
     justify-content: space-around;
-    align-content: flex-start;
+    align-content: center;
     flex-flow: row wrap;
 
 }
 
-
+.size p {
+   margin: 0px;
+   display: flex;
+   justify-content: center; 
+}
 
 .contact {
     margin: 0;
     padding:2% 4%;
     display: flex;
+}
+
+footer {
+    margin: 0;
+    padding:2% 4%;
+    display: flex;
+    justify-content: space-around;
 }
